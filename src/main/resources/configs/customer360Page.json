@@ -1,0 +1,50 @@
+{
+  "type": "CONTAINER",
+  "values": [
+    {
+      "type": "MAIN_CONTENT",
+      "values": [
+        {
+          "type": "ACCORDION",
+          "values": [
+            {
+              "type": "CARD",
+              "width": 500,
+              "values": [
+                {
+                  "type": "HEADER",
+                  "label": "Profile Details"
+                },
+                {
+                  "type": "KEY_VALUE",
+                  "values": [
+                    {
+                      "type": "STRING",
+                      "label": "Customer ID",
+                      "jsonLocation": "customerId"
+                    },
+                    {
+                      "type": "STRING",
+                      "label": "Customer Name",
+                      "jsonLocation": "customerName"
+                    },
+                    {
+                      "type": "STRING",
+                      "label": "creationDate",
+                      "jsonLocation": "creationDate"
+                    },
+                    {
+                      "type": "STRING",
+                      "label": "Date Of Birth",
+                      "jsonLocation": "dob"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
